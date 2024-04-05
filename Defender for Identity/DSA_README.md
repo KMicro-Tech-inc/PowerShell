@@ -2,7 +2,6 @@
 
 The **DSA** in Microsoft Defender for Identity (**MDI**) is used for several critical functions including (but not limited to) the following:
 
-<br/>
 
 - &#128272; Connecting to the domain controller at startup.
 
