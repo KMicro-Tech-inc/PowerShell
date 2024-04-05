@@ -17,6 +17,7 @@ The **DSA** in Microsoft Defender for Identity (**MDI**) is used for several cri
 - &#128272; Querying another domain via LDAP for details when detecting activities from entities in those domains.
 
 <br/>
+<br/>
 
 &#128273; A **DSA** is required for full security coverage in **MDI**. Without a **DSA**, you may expose your environment to certain risks, such as:
 
