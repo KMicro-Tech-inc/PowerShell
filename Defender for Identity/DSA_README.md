@@ -2,6 +2,7 @@
 
 The **DSA** in Microsoft Defender for Identity (**MDI**) is used for several critical functions including (but not limited to) the following:
 
+<br/>
 
 - &#128272; Connecting to the domain controller at startup.
 
@@ -17,10 +18,12 @@ The **DSA** in Microsoft Defender for Identity (**MDI**) is used for several cri
 
 <br/>
 <br/>
+<br/>
+<br/>
 
 &#128273; A **DSA** is required for full security coverage in **MDI**. Without a **DSA**, you may expose your environment to certain risks, such as:
 
-
+<br/>
 
 - &#128549; Inability to fully monitor and analyze activities on your network, which could lead to undetected security breaches&#10071;
 
