@@ -20,7 +20,7 @@ The **DSA** in Microsoft Defender for Identity (**MDI**) is used for several cri
 
 &#128273; A **DSA** is required for full security coverage in **MDI**. Without a **DSA**, you may expose your environment to certain risks, such as:
 
-<br/>
+
 
 - &#128549; Inability to fully monitor and analyze activities on your network, which could lead to undetected security breaches&#10071;
 
