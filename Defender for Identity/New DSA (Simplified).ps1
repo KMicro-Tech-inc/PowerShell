@@ -22,3 +22,5 @@ dsacls.exe "$deletedObjectsDN" /takeOwnership
 # Step 6: Assign read permissions for Deleted Objects to DSA account
 # This requires current user account to have ownership (see previous command)
 dsacls.exe "$deletedObjectsDN" /G "$domain\$(gmsaAccountName)$:LCRP"
+
+# example for example.net -->  dsacls.exe 'CN=Deleted Objects,DC=example,DC=net' /g 'example\GMSAserviceAccountName$:LCRP'
