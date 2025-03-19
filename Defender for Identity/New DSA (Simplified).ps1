@@ -23,4 +23,5 @@ dsacls.exe "$deletedObjectsDN" /takeOwnership
 # This requires current user account to have ownership (see previous command)
 dsacls.exe "$deletedObjectsDN" /G "$domain\$(gmsaAccountName)$:LCRP"
 
+# Troubleshooting DSACLS:
 # example for example.net -->  dsacls.exe 'CN=Deleted Objects,DC=example,DC=net' /g 'example\GMSAserviceAccountName$:LCRP'
